@@ -33,9 +33,9 @@ public class Student implements Comparable<Student> {
 		if (input.getScore() == this.score) {
 			return 0;
 		}else if(input.getScore() > this.score){
-			return -1;
-		}else {
 			return 1;
+		}else {
+			return -1;
 		}
 	}
 
